@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Mahasiswa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="container header">
+      <h1 id="name">Nama Mahasiswa</h1>
+      <p id="title">Mahasiswa / Bidang Keahlian</p>
+    </header>
+
+    <div class="container profile-photo">
+      <img src="foto.jpeg" alt="Foto Profil" id="photo" />
+    </div>
+
+    <main class="container">
+      <section>
+        <h2>Tentang Saya</h2>
+        <p id="about">Tulis ringkasan singkat tentang dirimu, minat, dan tujuan karier.</p>
+      </section>
+
+      <section>
+        <h2>Pendidikan</h2>
+        <ul id="education" class="list"></ul>
+      </section>
+
+      <section>
+        <h2>Keahlian</h2>
+        <ul id="skills" class="list skills"></ul>
+      </section>
+
+      <section>
+        <h2><kbd>Hobi</kbd></h2>
+        <ul id="hobies" class="list hobies"></ul>
+      </section>
+
+      <section>
+        <h2>Proyek</h2>
+        <div id="projects" class="projects"></div>
+      </section>
+
+      <section>
+        <h2>Kontak</h2>
+        <ul class="list">
+          <li>Email: <span id="email"></span></li>
+          <li>Telepon: <span id="phone"></span></li>
+          <li>LinkedIn: <span id="linkedin"></span></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <p>© <span id="year"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
